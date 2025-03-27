@@ -10,7 +10,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Notifier notifier = new EmailNotifier();
-        ReservationService reservationService = new ReservationServiceImpl(notifier);
+        TableManager tableManager = new TableManager();
+        ReservationService reservationService = new ReservationServiceImpl(notifier, tableManager);
+
 
         System.out.println("=== RESTAURANT RESERVATION SYSTEM ===");
 
