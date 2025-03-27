@@ -2,5 +2,5 @@
 Main Class: RestaurantReservationSystem.java
 
 Cara run :
-javac *.java
-java RestaurantReservationSystem
+javac -d out model/*.java services/*.java Main.java
+java -cp out Main
