@@ -1,5 +1,5 @@
 # ReservationsResto_PLBK
-Main Class: RestaurantReservationSystem.java
+Main Class: Main.java
 
 Cara run :
 javac -d out model/*.java services/*.java Main.java
